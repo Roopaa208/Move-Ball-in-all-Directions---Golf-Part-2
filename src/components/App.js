@@ -14,7 +14,7 @@ const App = () => {
       )
 
   }
-  const handleListener=()=>{
+  const handleListener=(event)=>{
     switch (event.key) {
         case "ArrowRight":
             updateXY(ballPosition.left + 5,ballPosition.top);
