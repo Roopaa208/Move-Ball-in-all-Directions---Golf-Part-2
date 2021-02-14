@@ -16,16 +16,16 @@ const App = () => {
   }
   const handleListener=()=>{
     switch (event.key) {
-        case 39:
+        case "ArrowRight":
             updateXY(ballPosition.left + 5,ballPosition.top);
           break;
-        case 40:
+        case "ArrowDown":
             updateXY(ballPosition.left ,ballPosition.top+5);
           break;
-        case 37:
+        case "ArrowLeft":
             updateXY(ballPosition.left - 5,ballPosition.top);
           break;
-        case 38:
+        case "ArrowUp":
             updateXY(ballPosition.left ,ballPosition.top-5);
           break;
         default:
