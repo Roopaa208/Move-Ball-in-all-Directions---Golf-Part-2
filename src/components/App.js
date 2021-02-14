@@ -15,7 +15,7 @@ const App = () => {
 
   }
   const handleListener=()=>{
-    switch (event.keyCode) {
+    switch (event.key) {
         case 39:
             updateXY(ballPosition.left + 5,ballPosition.top);
           break;
